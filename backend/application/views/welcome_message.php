@@ -70,6 +70,16 @@
 	<h1>Welcome to the Vet API!</h1>
 
 	<div id="body">
+		<p>A Code test for GroSocial developer candidates.</p>
+		<p>
+			Your task is to create a single webpage that uses jQuery, Bootstrap and EJS to produce the following:
+			<ul>
+				<li>When the page is loaded, display a table that lists each pet, one per row.</li>
+				<li>Each row should contain the Pet Photo Thumbnail, Pet Name, Owner Photo Thumbnail and Owner Name</li>
+				<li>When you click on the Pet's name, it should open a Bootstrap modal that lists the Pet ID, Pet Photo, Pet Name, Owner Photo, Owner Name, Color, Weight and Favorite Treat.</li>
+			</ul>
+		</p>
+		
 		<p><a href="/pet">/pet</a> will return a JSON object of all pets.</p>
 		<p><a href="/pet/n">/pet/n</a> will return a JSON object of a particular pet's details (n is the ID of the pet).</p>
 		<p><a href="/owner">/owner</a> will return a JSON object of all owners.</p>
