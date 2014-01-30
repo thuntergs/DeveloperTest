@@ -6,7 +6,8 @@ CREATE TABLE IF NOT EXISTS pets(
 id int NOT NULL auto_increment PRIMARY KEY,
 name varchar(50) DEFAULT NULL,
 photo_id int DEFAULT NULL,
-owner_id int DEFAULT NULL
+owner_id int DEFAULT NULL,
+petdetail_id int DEFAULT NULL
 )ENGINE=innodb DEFAULT CHARSET=utf8;
 
 CREATE TABLE IF NOT EXISTS owners(
@@ -47,16 +48,16 @@ INSERT INTO photos(thumbnailpath, imagepath)VALUES
 ('/assets/images/Clark_thumb.jpg', '/assets/images/Clark.jpg'),
 ('/assets/images/lilly_thumb.jpg', '/assets/images/lilly.jpg');
 
-INSERT INTO pets(name, photo_id, owner_id)VALUES
-('Fred', 2, 1),
-('Haus', 4, 2),
-('Mac', 5, 2),
-('Lulu', 7, 3),
-('Mr Squiqqles', 9, 4),
-('Spot', 11, 5),
-('Bizzy', 12, 5),
-('Sammy', 14, 6),
-('Lilly', 16, 7);
+INSERT INTO pets(name, photo_id, owner_id, petdetail_id)VALUES
+('Fred', 2, 1,2),
+('Haus', 4, 2, 3),
+('Mac', 5, 2, 4),
+('Lulu', 7, 3, 5),
+('Mr Squiqqles', 9, 4, 6),
+('Spot', 11, 5, 7),
+('Bizzy', 12, 5, 1),
+('Sammy', 14, 6, 8),
+('Lilly', 16, 7, 9);
 
 
 
@@ -67,7 +68,7 @@ INSERT INTO owners(name, photo_id)VALUES
 ('Jen', 8),
 ('Zuck', 10),
 ('Kelly', 13),
-('Clark', 14);
+('Clark', 15);
 
 INSERT INTO petdetails(color, weight, favtreat)VALUES
 ('black/yellow', '100 milligrams', 'honey'),
