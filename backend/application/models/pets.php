@@ -10,7 +10,7 @@ class Pets extends CI_Model {
 	}
 
 	public function getPetDetails($petId) {
-		return $this->db->query('SELECT id, color, weight, favtreat FROM petdetails WHERE (id=?)', array($petId))->result_array();
+		return $this->db->query('SELECT id, color, weight, favtreat FROM petdetails WHERE (id=?)', array($petId))->row_array();
 	}
 
 }
