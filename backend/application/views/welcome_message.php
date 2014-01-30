@@ -67,21 +67,15 @@
 <body>
 
 <div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
+	<h1>Welcome to the Vet API!</h1>
 
 	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
-
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+		<p><a href="/pet">/pet</a> will return a JSON object of all pets.</p>
+		<p><a href="/pet/n">/pet/n</a> will return a JSON object of a particular pet's details (n is the ID of the pet).</p>
+		<p><a href="/owner">/owner</a> will return a JSON object of all owners.</p>
+		<p><a href="/photo">/photo</a> will return a JSON object of all photos.</p>
 	</div>
 
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
 </div>
 
 </body>
