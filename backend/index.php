@@ -1,5 +1,5 @@
 <?php
-
+	header("Access-Control-Allow-Origin:*"); // For cross-domain API requests
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
