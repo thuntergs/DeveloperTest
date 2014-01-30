@@ -7,6 +7,7 @@ class Pet extends CI_Controller {
 		if (0 == $petId) {
 			echo json_encode( $this->pets->getAllPets() );
 		} else {
+			sleep(5); // Simulate a slow query
 			echo json_encode( $this->pets->getPetDetails((int)$petId) );
 		}
 	}
