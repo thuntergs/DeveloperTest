@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+	<title>GroSocial Dev Test API</title>
 
 	<style type="text/css">
 
@@ -74,7 +74,7 @@
 		<p>
 			Your task is to create a single webpage that uses jQuery, Bootstrap and EJS to produce the following:
 			<ul>
-				<li>When the page is loaded, display a table that lists each pet, one per row, sorted alphabetically by name.</li>
+				<li>When the page is loaded, display a bootstrap-styled table that lists each pet, one per row, sorted alphabetically by name.</li>
 				<li>Each row should contain the Pet Photo Thumbnail, Pet Name, Owner Photo Thumbnail and Owner Name</li>
 				<li>When you click on the Pet's name, it should open a Bootstrap modal that lists the Pet ID, Pet Photo, Pet Name, Owner Photo, Owner Name, Color, Weight and Favorite Treat.</li>
 				<li>The app must respond quickly or notify the user that it is working in the event that an action takes longer than immediately.</li>
@@ -82,7 +82,7 @@
 		</p>
 
 		<p><a href="/pet">/pet</a> will return a JSON object of all pets.</p>
-		<p><a href="/pet/n">/pet/n</a> will return a JSON object of a particular pet's details (n is the ID of the pet).</p>
+		<p><a href="/pet/1">/pet/n</a> will return a JSON object of a particular pet's details (n is the ID of the pet).</p>
 		<p><a href="/owner">/owner</a> will return a JSON object of all owners.</p>
 		<p><a href="/photo">/photo</a> will return a JSON object of all photos.</p>
 
