@@ -85,6 +85,21 @@
 		<p><a href="/pet/n">/pet/n</a> will return a JSON object of a particular pet's details (n is the ID of the pet).</p>
 		<p><a href="/owner">/owner</a> will return a JSON object of all owners.</p>
 		<p><a href="/photo">/photo</a> will return a JSON object of all photos.</p>
+
+		<p>Here's a template to get you started:</p>
+		<code><pre>
+<?php echo htmlentities('<html>
+	<head>
+		<title>Developer Test</title>
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+		<script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+		<script src="//devtest.grosocial.com/assets/js/ejs.js"></script>
+	</head>
+	<body>
+	</body>
+</html>'); ?>
+		</pre></code>
 	</div>
 
 </div>
