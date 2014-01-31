@@ -72,7 +72,7 @@
 	<div id="body">
 		<p>A Code test for GroSocial developer candidates.</p>
 		<p>
-			Your task is to create a single webpage that uses jQuery, Bootstrap and EJS to produce the following:
+			Your task is to create a single webpage (client-side only) that uses jQuery, Bootstrap and EJS to produce the following:
 			<ul>
 				<li>When the page is loaded, display a bootstrap-styled table that lists each pet, one per row, sorted alphabetically by name.</li>
 				<li>Each row should contain the Pet Photo Thumbnail, Pet Name, Owner Photo Thumbnail and Owner Name</li>
@@ -81,10 +81,25 @@
 			</ul>
 		</p>
 
-		<p><a href="/pet">/pet</a> will return a JSON object of all pets.</p>
-		<p><a href="/pet/1">/pet/n</a> will return a JSON object of a particular pet's details (n is the ID of the pet).</p>
-		<p><a href="/owner">/owner</a> will return a JSON object of all owners.</p>
-		<p><a href="/photo">/photo</a> will return a JSON object of all photos.</p>
+		<p>We will provide a server side API for you to retrieve data from. (Located on this domain. The API supports cross-domain API calls) The endpoints are:
+			<ul>
+				<li><a href="/pet">/pet</a> will return a JSON object of all pets.</li>
+				<li><a href="/pet/1">/pet/n</a> will return a JSON object of a particular pet's details (n is the ID of the pet).</li>
+				<li><a href="/owner">/owner</a> will return a JSON object of all owners.</li>
+				<li><a href="/photo">/photo</a> will return a JSON object of all photos.</li>
+			</ul>
+		</p>
+
+		<p>
+			Rules:
+			<ul>
+				<li>Try to complete the task within an hour and a half.</li>
+				<li>You MAY use google and other online resources for reference.</li>
+				<li>You MAY ask for clarification.</li>
+				<li>You MAY NOT ask a friend for help.</li>
+				<li>Organize your code however you see fit. You can split it up into multiple files or use a single file.</li>
+			</ul>
+		</p>
 
 		<p>Here's a template to get you started:</p>
 		<code><pre>
