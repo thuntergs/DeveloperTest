@@ -106,10 +106,10 @@
 <?php echo htmlentities('<html>
 	<head>
 		<title>Developer Test</title>
-		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
-		<script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
-		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-		<script src="//devtest.grosocial.com/assets/js/ejs.js"></script>
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+		<script src="http://devtest.grosocial.com/assets/js/ejs.js"></script>
 	</head>
 	<body>
 	</body>
